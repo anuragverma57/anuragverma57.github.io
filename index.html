@@ -1,232 +1,404 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anurag Verma — Software Developer</title>
+    <meta
+      name="description"
+      content="Backend-focused Software Developer building scalable systems with Go and Node.js"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="nav">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo">AV</a>
+        <div class="nav-links">
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact" class="nav-cta">Get in touch</a>
+        </div>
+        <button id="menu-toggle" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </nav>
 
-<head>
-	<title>Anurag Verma</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-</head>
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Get in touch</a>
+    </div>
 
-<body class="is-preload">
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container">
+        <p class="hero-label">Backend-focused Software Developer</p>
+        <h1 class="hero-heading">
+          Building <span class="text-white">scalable systems</span> & reliable
+          <span class="text-white">APIs</span> that power real-world products.
+        </h1>
+        <p class="hero-sub">
+          <span class="hero-name">Anurag Verma</span> — I work with Go, Node.js,
+          and cloud infrastructure to ship performant backend services.
+          Currently at RBH Solutions.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="#experience" class="btn btn-outline">View my work ↓</a>
+          <a
+            href="resume/AnuragVerma_Resume.pdf"
+            download="AnuragVerma_Resume.pdf"
+            class="btn btn-outline"
+            >Resume PDF</a
+          >
+        </div>
 
-	<!-- Page Wrapper -->
-	<div id="page-wrapper">
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">98%</span>
+            <span class="stat-label">Performance gain</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">300+</span>
+            <span class="stat-label">APIs shipped</span>
+          </div>
+          <div class="stat-divider"></div>
+          <a
+            href="https://leetcode.com/u/anuragverma57/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="stat stat-link"
+            aria-label="LeetCode profile — 200+ problems solved"
+          >
+            <span class="stat-number">200+</span>
+            <span class="stat-label">DSA problems</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
-		<!-- Header -->
-		<header id="header" class="alt">
-			<h1><a href="index.html">Home</a></h1>
-			<nav>
-				<a href="#menu">Menu</a>
-			</nav>
-		</header>
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-label">
+          <span class="label-dot"></span> Experience
+        </div>
+        <h2 class="section-heading">
+          Places where I've built<br />
+          <span class="text-white">real things</span>
+        </h2>
 
-		<!-- Menu -->
-		<nav id="menu">
-			<div class="inner">
-				<h2>Menu</h2>
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<!-- <li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li> -->
-				</ul>
-				<a href="#" class="close">Close</a>
-			</div>
-		</nav>
+        <div class="exp-grid">
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div>
+                <h3>RBH Solutions Pvt. Ltd.</h3>
+                <p class="exp-role">Software Developer</p>
+              </div>
+              <span class="exp-date">Oct 2025 – Present</span>
+            </div>
+            <ul class="exp-list">
+              <li>
+                98% performance improvement — reduced execution from 15–17 min
+                to 15–16 sec through algorithmic optimization
+              </li>
+              <li>
+                Led end-to-end delivery of a government enterprise module using
+                Angular, .NET, PostgreSQL, CouchDB, and SignalR
+              </li>
+              <li>
+                Maintained 99.9% system uptime with on-site deployment and
+                production support
+              </li>
+            </ul>
+            <div class="exp-tags">
+              <span>Angular</span><span>.NET</span><span>PostgreSQL</span
+              ><span>CouchDB</span><span>SignalR</span>
+            </div>
+          </article>
 
-		<!-- Banner -->
-		<section id="banner">
-			<div class="inner">
-				<!-- <div class="logo"><span class="icon fa-gem"></span></div> -->
-				<h2>Anurag Verma</h2>
-				<p>Front End Developer | Game Development | Robotics Enthusiast</p>
-			</div>
-		</section>
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div>
+                <h3>Flix Logix India</h3>
+                <p class="exp-role">Software Developer Intern</p>
+              </div>
+              <span class="exp-date">Jan 2024 – Jul 2024</span>
+            </div>
+            <ul class="exp-list">
+              <li>
+                Built 30+ REST APIs using Go (Echo), Redis, and ArangoDB for a
+                multi-role cab platform
+              </li>
+              <li>
+                OTP-based auth reduced fake rides by 15%, improved user safety
+                by 20%
+              </li>
+              <li>
+                Integrated live tracking, geo-fencing, and dynamic route
+                optimization
+              </li>
+            </ul>
+            <div class="exp-tags">
+              <span>Go</span><span>Echo</span><span>Redis</span
+              ><span>ArangoDB</span>
+            </div>
+          </article>
 
-		<!-- Wrapper -->
-		<section id="wrapper">
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div>
+                <h3>Zalco Technologies</h3>
+                <p class="exp-role">Backend Developer Intern</p>
+              </div>
+              <span class="exp-date">May 2023 – Dec 2023</span>
+            </div>
+            <ul class="exp-list">
+              <li>
+                Real-time messaging backend for 100+ concurrent users with
+                Express.js, TypeScript, Socket.io
+              </li>
+              <li>
+                32% query performance boost via schema refactoring and compound
+                indexing in MongoDB
+              </li>
+              <li>
+                Implemented file attachments, location sharing, broadcast
+                messaging, and user management
+              </li>
+            </ul>
+            <div class="exp-tags">
+              <span>Express.js</span><span>TypeScript</span
+              ><span>Socket.io</span><span>MongoDB</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-			<!-- One -->
-			<section id="one" class="wrapper spotlight style1">
-				<div class="inner">
-					<a href="https://anuragverma57.github.io/calculator" class="image"><img
-							src="images/my_images/calculator_img.jpg" alt="" /></a>
-					<div class="content">
-						<h2 class="major">Calculator web app</h2>
-						<p>This is a calculator web app which does all the basic arithmatic operations. It was made
-							using HTML, CSS & JavaScript.</p>
-						<a href="https://github.com/anuragverma57/calculator" class="special">Learn more</a>
-					</div>
-				</div>
-			</section>
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-label">
+          <span class="label-dot"></span> Projects
+        </div>
+        <h2 class="section-heading">
+          Things I've <span class="text-white">built</span>
+        </h2>
 
-			<!-- Two -->
-			<section id="two" class="wrapper alt spotlight style2">
-				<div class="inner">
-					<a href="https://anuragverma57.github.io/To-Do-List/" class="image"><img
-							src="images/my_images/todoapp_img.jpg" alt="" /></a>
-					<div class="content">
-						<h2 class="major">To-Do list web app</h2>
-						<p>This is a to-do list web application which tasks users tasks as input and lists them one
-							below another and strikes through when checked off. Made using HTML, CSS & JavaScript.</p>
-						<a href="https://github.com/anuragverma57/To-Do-List" class="special">Learn more</a>
-					</div>
-				</div>
-			</section>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-card-inner">
+              <div class="project-badge">Featured</div>
+              <h3>Inventory Management System</h3>
+              <p>
+                Full-stack inventory system with role-based access, stock
+                reconciliation, and transactional consistency. Built with
+                containerized deployment for production-scale usage.
+              </p>
+              <div class="project-tags">
+                <span>Go</span><span>FastAPI</span><span>Nest.js</span
+                ><span>Next.js</span><span>PostgreSQL</span><span>Redis</span
+                ><span>Kubernetes</span>
+              </div>
+              <a
+                href="https://github.com/anuragverma57"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+              >
+                View on GitHub →
+              </a>
+            </div>
+          </article>
 
-			<!-- <!-1- Three -1-> -->
-			<!-- <section id="three" class="wrapper spotlight style3"> -->
-			<!-- 	<div class="inner"> -->
-			<!-- 		<a href="https://anuragverma57.github.io/stats-preview-card-project-/" class="image"><img -->
-			<!-- 				src="images/my_images/statscard_img.jpg" alt="" /></a> -->
-			<!-- 		<div class="content"> -->
-			<!-- 			<h2 class="major">Stats preview card website</h2> -->
-			<!-- 			<p>This is a frontend website component project which showcases stats in a card with responsive -->
-			<!-- 				design.</p> -->
-			<!-- 			<a href="https://github.com/anuragverma57/stats-preview-card-project-" class="special">Learn -->
-			<!-- 				more</a> -->
-			<!-- 		</div> -->
-			<!-- 	</div> -->
-			<!-- </section> -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <h3>Multi-Role Cab Platform</h3>
+              <p>
+                30+ REST APIs for a cab booking platform with OTP auth, live
+                tracking, geo-fencing, and dynamic route optimization.
+              </p>
+              <div class="project-tags">
+                <span>Go</span><span>Echo</span><span>Redis</span
+                ><span>ArangoDB</span>
+              </div>
+              <a
+                href="https://github.com/anuragverma57"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+              >
+                View on GitHub →
+              </a>
+            </div>
+          </article>
 
-			<!-- Three -->
-			<section id="one" class="wrapper spotlight style1">
-				<div class="inner">
-					<a href="https://anuragverma57.github.io/fall-game/" class="image"><img
-							src="images/my_images/fall_game_img.jpg" alt="" /></a>
-					<div class="content">
-						<h2 class="major">Fall Game</h2>
-						<p>This is an interactive retro fall game web application, made using HTML, CSS & JavaScript.
-						</p>
-						<a href="https://github.com/anuragverma57/fall-game" class="special">Learn more</a>
-					</div>
-				</div>
-			</section>
+          <article class="project-card">
+            <div class="project-card-inner">
+              <h3>Real-Time Chat Backend</h3>
+              <p>
+                Messaging backend supporting 100+ concurrent users with file
+                attachments, location sharing, and broadcast messaging.
+              </p>
+              <div class="project-tags">
+                <span>Express.js</span><span>TypeScript</span
+                ><span>Socket.io</span><span>MongoDB</span>
+              </div>
+              <a
+                href="https://github.com/anuragverma57"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+              >
+                View on GitHub →
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-			<!-- <!-1- Four -1-> -->
-			<!-- <section id="two" class="wrapper alt spotlight style2"> -->
-			<!-- 	<div class="inner"> -->
-			<!-- 		<a href="https://anuragverma57.github.io/To-Do-List/" class="image"><img -->
-			<!-- 				src="images/my_images/todoapp_img.jpg" alt="" /></a> -->
-			<!-- 		<div class="content"> -->
-			<!-- 			<h2 class="major">To-Do list web app</h2> -->
-			<!-- 			<p>This is a to-do list web application which tasks users tasks as input and lists them one -->
-			<!-- 				below another and strikes through when checked off. Made using HTML, CSS & JavaScript.</p> -->
-			<!-- 			<a href="https://github.com/anuragverma57/To-Do-List" class="special">Learn more</a> -->
-			<!-- 		</div> -->
-			<!-- 	</div> -->
-			<!-- </section> -->
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-label"><span class="label-dot"></span> Skills</div>
+        <h2 class="section-heading">
+          Tools & <span class="text-white">technologies</span>
+        </h2>
 
-			<!-- Four -->
-			<!-- <section id="four" class="wrapper alt style1"> -->
-			<!-- 	<div class="inner"> -->
-			<!-- 		<h2 class="major">Game projects</h2> -->
-			<!-- 		<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. -->
-			<!-- 			Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem -->
-			<!-- 			lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p> -->
-			<!-- 		<section class="features"> -->
-			<!-- 			<article> -->
-			<!-- 				<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a> -->
-			<!-- 				<h3 class="major">Sed feugiat lorem</h3> -->
-			<!-- 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus -->
-			<!-- 					ultrices.</p> -->
-			<!-- 				<a href="#" class="special">Learn more</a> -->
-			<!-- 			</article> -->
-			<!-- 			<article> -->
-			<!-- 				<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a> -->
-			<!-- 				<h3 class="major">Nisl placerat</h3> -->
-			<!-- 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus -->
-			<!-- 					ultrices.</p> -->
-			<!-- 				<a href="#" class="special">Learn more</a> -->
-			<!-- 			</article> -->
-			<!-- 			<article> -->
-			<!-- 				<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a> -->
-			<!-- 				<h3 class="major">Ante fermentum</h3> -->
-			<!-- 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus -->
-			<!-- 					ultrices.</p> -->
-			<!-- 				<a href="#" class="special">Learn more</a> -->
-			<!-- 			</article> -->
-			<!-- 			<article> -->
-			<!-- 				<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a> -->
-			<!-- 				<h3 class="major">Fusce consequat</h3> -->
-			<!-- 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus -->
-			<!-- 					ultrices.</p> -->
-			<!-- 				<a href="#" class="special">Learn more</a> -->
-			<!-- 			</article> -->
-			<!-- 		</section> -->
-			<!-- 		<ul class="actions"> -->
-			<!-- 			<li><a href="#" class="button">Browse All</a></li> -->
-			<!-- 		</ul> -->
-			<!-- 	</div> -->
-			<!-- </section> -->
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="skill-tags">
+              <span>Go</span><span>TypeScript</span><span>JavaScript</span
+              ><span>Java</span><span>Python</span><span>C++</span
+              ><span>SQL</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Frameworks</h4>
+            <div class="skill-tags">
+              <span>Node.js</span><span>Express</span><span>FastAPI</span
+              ><span>Echo</span><span>gRPC</span><span>REST</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Databases</h4>
+            <div class="skill-tags">
+              <span>PostgreSQL</span><span>MongoDB</span><span>MySQL</span
+              ><span>ArangoDB</span><span>Redis</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Cloud & DevOps</h4>
+            <div class="skill-tags">
+              <span>Docker</span><span>Kubernetes</span><span>AWS EC2</span
+              ><span>AWS S3</span><span>CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		</section>
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="container">
+        <div class="section-label">
+          <span class="label-dot"></span> Education
+        </div>
+        <h2 class="section-heading">
+          Where it <span class="text-white">started</span>
+        </h2>
 
-		<!-- Footer -->
-		<section id="footer">
-			<div class="inner">
-				<!-- <h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form> -->
-				<ul class="contact">
-					<li class="icon solid fa-home">
-						Rajaji Puram<br />
-						Lucknow<br />
-						India, 226003
-					</li>
-					<li class="icon solid fa-phone">(+91) 9044499810</li>
-					<li class="icon solid fa-envelope"><a href="mailto:anurag.av57@gmail.com">anurag.av57@gmail.com</a>
-					</li>
-					<li class="icon brands fa-linkedin"><a
-							href="https://www.linkedin.com/in/anurag-verma-57a508231/">@Anurag-Verma</a></li>
-					<!-- <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li> -->
-					<li class="icon brands fa-instagram"><a
-							href="https://www.instagram.com/_anurag_av_/">_anurag_av_</a></li>
-				</ul>
-				<ul class="copyright">
-					<!-- <li>&copy; 2022 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
-					<li>&copy; 2022 All rights reserved.</li>
-				</ul>
-			</div>
-		</section>
-	</div>
+        <div class="edu-grid">
+          <div class="edu-card">
+            <h3>National Institute of Technology, Srinagar</h3>
+            <p class="edu-degree">Bachelor of Technology</p>
+            <div class="edu-meta">
+              <span>2021 – 2025</span>
+              <span>CGPA: 7.67</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <h3>St. Don Bosco College, Lakhimpur-Kheri</h3>
+            <p class="edu-degree">Intermediate (CBSE)</p>
+            <div class="edu-meta">
+              <span>2019 – 2020</span>
+              <span>Score: 83.2%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-label"><span class="label-dot"></span> Contact</div>
+        <h2 class="section-heading">
+          Let's <span class="text-white">connect</span>
+        </h2>
+        <p class="contact-sub">
+          Email or LinkedIn works best for a quick reply.
+        </p>
 
-</body>
+        <div class="contact-grid">
+          <a href="mailto:anurag.av57@gmail.com" class="contact-card">
+            <span class="contact-card-label">Email</span>
+            <span class="contact-card-value">anurag.av57@gmail.com</span>
+          </a>
+          <a
+            href="https://github.com/anuragverma57"
+            target="_blank"
+            rel="noopener"
+            class="contact-card"
+          >
+            <span class="contact-card-label">GitHub</span>
+            <span class="contact-card-value">anuragverma57</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anurag-verma-57a508231/"
+            target="_blank"
+            rel="noopener"
+            class="contact-card"
+          >
+            <span class="contact-card-label">LinkedIn</span>
+            <span class="contact-card-value">Anurag Verma</span>
+          </a>
+          <a
+            href="resume/AnuragVerma_Resume.pdf"
+            download="AnuragVerma_Resume.pdf"
+            class="contact-card"
+          >
+            <span class="contact-card-label">Resume</span>
+            <span class="contact-card-value">Download PDF</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
+    <!-- FOOTER -->
+    <footer>
+      <div class="container footer-inner">
+        <span class="footer-name">Anurag Verma</span>
+        <span class="footer-note">Lucknow, India</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
