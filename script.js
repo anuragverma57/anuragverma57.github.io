@@ -1,5 +1,35 @@
+const root = document.documentElement;
 const menuToggle = document.getElementById('menu-toggle');
 const mobileMenu = document.getElementById('mobile-menu');
+const themeToggle = document.getElementById('theme-toggle');
+const themeColorMeta = document.getElementById('theme-color-meta');
+const THEME_KEY = 'theme';
+
+function applyTheme(theme) {
+  root.setAttribute('data-theme', theme);
+  try {
+    localStorage.setItem(THEME_KEY, theme);
+  } catch (e) {
+    /* ignore */
+  }
+  if (themeToggle) {
+    themeToggle.setAttribute(
+      'aria-label',
+      theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'
+    );
+  }
+  if (themeColorMeta) {
+    themeColorMeta.setAttribute('content', theme === 'light' ? '#fafafa' : '#09090b');
+  }
+}
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+  });
+  applyTheme(root.getAttribute('data-theme') || 'dark');
+}
 
 menuToggle.addEventListener('click', () => {
   mobileMenu.classList.toggle('open');
